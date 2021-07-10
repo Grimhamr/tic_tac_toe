@@ -90,7 +90,7 @@ class Game
             if @squares.all?{|square| square=="X"||square=="O"}
                 puts "It's a draw!"
                 exit
-                end
+                
             end
     end
 
